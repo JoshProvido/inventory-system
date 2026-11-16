@@ -1,0 +1,17 @@
+body{background:#f4f6fb}
+.sidebar{background:#1e293b;--bs-offcanvas-width:250px;min-height:100vh}
+.sidebar .brand{color:#fff;font-weight:700;padding:1.1rem 1.25rem;border-bottom:1px solid rgba(255,255,255,.08)}
+.sidebar .nav-link{color:#cbd5e1;padding:.65rem 1.25rem;border-radius:0}
+.sidebar .nav-link i{width:1.6rem;display:inline-block}
+.sidebar .nav-link:hover{background:rgba(255,255,255,.06);color:#fff}
+.sidebar .nav-link.active{background:#2563eb;color:#fff}
+.topbar{background:#fff;border-bottom:1px solid #e5e7eb}
+.stat-card{border:0;border-radius:.75rem;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.stat-card .icon{width:46px;height:46px;border-radius:.6rem;display:flex;align-items:center;justify-content:center;font-size:1.4rem}
+.card{border:0;box-shadow:0 1px 3px rgba(0,0,0,.06);border-radius:.75rem}
+.table thead th{white-space:nowrap;font-size:.8rem;text-transform:uppercase;letter-spacing:.03em;color:#64748b}
+.min-w-0{min-width:0}
+@media print{
+  .sidebar,.topbar,.no-print,.btn,.pagination{display:none!important}
+  body{background:#fff}.card{box-shadow:none}
+}
